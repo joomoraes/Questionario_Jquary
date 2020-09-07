@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Joao Pedro" content="Quiz Enem">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ENEM QUIZ IFMT</title>
+        <link href="css/mainFrame.css" type="text/css">
+        <link href="bootstrap-4.5.2-dist/css/bootstrap-grid.min.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+        <script type="application/javascript" src="jquery-3.5.1.min.map"></script>
+    <style>
+            p {
+        padding: 25px
+    }
+    </style>
+    <body>
+        
+        
+        <!-- QUESTIONARIO 1 -->
+    <div class="container-fluid">
+        <h1 style="font-family: cursive;
+                   text-align: center;
+                   padding: 20px">QUESTOES ENEM-IFMT</h1>
+        <div class="col-8 offset-4">
+        <h4> Linguagens, Códigos e suas Tecnologias </h4>
+            <br>
+            <div class="container col-5 row justify-content-md-center">
+                 <div class="row justify-content-md-center">
+                <img src="img/charge_port.jpeg" class="img-fluid" alt="Responsive image">
+                <b>Nessa charge, o recurso morfossintático que colabora para o efeito de humor está indicado pelo(a)</b>
+                <p><input class="form-check-input" type="checkbox" name="questao" value="A"> 
+                    <label>a) emprego de uma oração adversativa, que orienta a quebra da expectativa ao final.</label>
+                </p>
+                <p><input class="form-check-input" type="checkbox" name="questao" value="B"> 
+                    <label>b) uso de conjunção aditiva, que cria uma relação de causa e efeito entre as ações.</label>
+                </p>
+                <p><input class="form-check-input" type="checkbox" name="questao" value="C"> 
+                    <label>c) retomada do substantivo "mãe", que desfaz a ambiguidade dos sentidos a ele atribuídos.</label>
+                </p>
+                <p><input class="form-check-input" type="checkbox" name="questao" value="D">
+                    <label>d) utilização da forma pronominal "la", que reflete um tratamento formal do filho em relação à "mãe".</label>
+                <p>
+
+                <input type="button" class="btn btn-primary" id="btnConfirmar" value="Confirmar Resposta" />
+                <input type="button" id="btnReset" class="escondido btn btn-primary" value="Tentar Novamente" />    
+                     <p></p><b style="color: green" id="mensagem"></b><p></p>
+                </div>
+                </div>
+            </div>
+            
+        <!-- QUESTIONARIO 2 -->    
+        <div class="col-8 offset-4">
+        <h4> Matemática e Suas Tecnologias</h4>
+            <br>
+            <div class="container col-5 row justify-content-md-center">
+                <b>(Enem/2019) Um ciclista quer montar um sistema de marchas usando dois discos dentados na parte traseira de sua bicicleta, chamados catracas. A coroa é o disco dentado que é movimentado pelos pedais da bicicleta, sendo que a corrente transmite esse movimento às catracas, que ficam posicionadas na roda traseira da bicicleta. As diferentes marchas ficam definidas pelos diferentes diâmetros das catracas, que são medidos conforme indicação da figura.</b>
+                <img src="img/imgMat.jpg" class="img-fluid" alt="Responsive image">
+                <b>O ciclista já dispõe de uma catraca com 7 cm de diâmetro e pretende incluir uma segunda catraca, de modo que, à medida em que a corrente passe por ela, a bicicleta avance 50% a mais do que avançaria se a corrente passasse pela primeira catraca, a cada volta completa dos pedais.
+
+                    O valor mais próximo da medida do diâmetro da segunda catraca, em centímetro e com uma casa decimal, é</b>
+                 <div class="row justify-content-md-center">
+                <p><input class="form-check-input" type="checkbox" name="questao2" value="A2"> 
+                    <label> a) 2,3 </label>
+                     </p>
+                <p><input class="form-check-input" type="checkbox" name="questao2" value="B2">
+                     <label> b) 3,5 </label>
+                     </p>
+                <p><input class="form-check-input" type="checkbox" name="questao2" value="C2"> 
+                     <label> c) 4,7 </label>
+                     </p>
+                <p><input class="form-check-input" type="checkbox" name="questao2" value="D2"> 
+                     <label> d) 5,3 </label>
+                     </p>
+                <p>    
+
+                <input type="button" class="btn btn-success" id="btnConfirmar2" value="Confirmar Resposta" />
+                <input type="button" id="btnReset2" class="btn btn-success escondido" value="Tentar Novamente" />
+                <p></p><b id="mensagem2" style="color: green"></b><p></p>
+            </div>
+        </div>
+        </div>
+        
+        <!-- QUESTIONARIO 3 -->    
+        <div class="col-8 offset-4">
+        <h4> Ciências Humanas e suas Tecnologias </h4>
+            <br>
+            <div class="container col-5 row justify-content-md-center">
+                <b>(Enem/2016)
+
+TEXTO I
+
+Embora eles, artistas modernos, se deem como novos precursores duma arte a ir, nada é mais velho que a arte anormal. De há muitos já que a estudam os psiquiatras em seus tratados, documentando-se nos inúmeros desenhos que ornam as paredes internas dos manicômios. Essas considerações são provocadas pela exposição da Sra. Malfatti. Sejam sinceros: futurismo, cubismo,impressionismo e tutti quanti não passam de outros tantos ramos da arte caricatural.
+
+LOBATO. M. Paranoia ou mistificação: a propósito da exposição de Anita Malfatli. O Estado de São Paulo. 20 dez. 1917 (adaptado).
+
+TEXTO II
+Anita Malfatti, possuidora de uma alta consciência do que faz, a vibrante artista não temeu levantar com os seus cinquenta trabalhos as mais irritadas opiniões e as mais contrariantes hostilidades. As suas telas chocam o preconceito fotográfico que geralmente se leva no espírito para as nossas exposições de pintura. Na arte, a realidade na ilusão é o que todos procuram. E os naturalistas mais perfeitos são os que melhor conseguem iludir.
+
+ANDRADE, O. A exposição Anita Malfatti. Jornal do Cormmercio. 11 jan. 1918 (adaptado).</b>
+                <img src="img/imgHist.jpg" class="img-fluid" alt="Responsive image">
+                <b>A análise dos documentos apresentados demonstra que o cenário artístico brasileiro no primeiro quartel do século XX era caracterizado pelo </b>
+                 <div class="row justify-content-md-center">
+            <p><input class="form-check-input" type="checkbox" name="questao3" value="A3"> 
+                <label>a) domínio do academicismo, que dificultava a recepção da vertente realista na obra de Anita Malfatti.</label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao3" value="B3"> 
+                     <label>b) dissonância entre as vertentes artísticas, que divergiam sobre a validade do modelo estético europeu.</label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao3" value="C3"> 
+                     <label>c) exaltação da beleza e da rigidez da forma, que justificavam a adaptação da estética europeia à realidade brasileira.</label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao3" value="D3"> 
+                     <label>d) impacto de novas linguagens estéticas, que alteravam o conceito de arte e abasteciam a busca por uma produção artística nacional.</label>
+                     </p>
+            <p>    
+
+            <input type="button" class="btn btn-info" id="btnConfirmar3" value="Confirmar Resposta" />
+            <input type="button" id="btnReset3" class="btn btn-info escondido3" value="Tentar Novamente" />
+            <p></p><b id="mensagem3" style="color: green"></b><p></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- QUESTIONARIO 4 -->    
+            
+        <div class="col-8 offset-4">
+        <h4> Ciências Humanas e suas Tecnologias </h4>
+            <br>
+            <div class="container col-5 row justify-content-md-center">
+                <img src="img/ImgGeon.jpg" class="img-fluid" alt="Responsive image">
+                 <b>A dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a</b>
+                 <div class="row justify-content-md-center">
+            <p><input class="form-check-input" type="checkbox" name="questao4" value="A4">
+                     <label> A) redução do volume dos rios. </label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao4" value="B4"> 
+                     <label> B) ampliação do escoamento superficial. </label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao4" value="C4"> 
+                     <label> C) diminuição do índice de chuvas. </label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao4" value="D4"> 
+                     <label> D) retração do nível dos reservatórios. </label>
+                     </p>
+            <p>    
+
+            <input type="button" class="btn btn-success" id="btnConfirmar4" value="Confirmar Resposta" />
+            <input type="button" id="btnReset4" class="btn btn-success escondido4" value="Tentar Novamente" />
+            <p></p><b id="mensagem4" style="color: green"></b><p></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- QUESTIONARIO 5 -->    
+        <div class="col-8 offset-4">
+        <h4> Ciências Humanas e suas Tecnologias </h4>
+            <br>
+            <div class="container col-5 row justify-content-md-center">
+                <img src="img/ImgSOcio.jpg" class="img-fluid" alt="Responsive image">
+                <b>A charge revela uma crítica aos meios de comunicação, em especial à internet, porque</b>
+                 <div class="row justify-content-md-center">
+            <p><input class="form-check-input" type="checkbox" name="questao5" value="A5">
+                     <label> A) questiona a integração das pessoas nas redes virtuais de relacionamento. </label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao5" value="B5"> 
+                     <label> B) considera as relações sociais como menos importantes que as virtuais. </label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao5" value="C5"> 
+                     <label> C) enaltece a pretensão do homem de estar em todos os lugares ao mesmo tempo. </label>
+                     </p>
+            <p><input class="form-check-input" type="checkbox" name="questao5" value="D5"> 
+                     <label> D) descreve com precisão as sociedades humanas no mundo globalizado. </label>
+                     </p>
+            <p>    
+
+            <input type="button" class="btn btn-warning" id="btnConfirmar5" value="Confirmar Resposta" />
+            <input type="button" id="btnReset5" class="escondido5 btn btn-warning" value="Tentar Novamente" />
+            <p></p><b id="mensagem5" style="color: green"></b><p></p>
+        </div>    
+            </div></div>
+    </div>
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/MainFrame.js"></script>
+    </body>
+</html>
